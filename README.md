@@ -1,12 +1,71 @@
-# React + Vite
+# React Router Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple project built to practice and understand how React Router works in a real application.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://react-router-abhi.netlify.app/](https://react-router-abhi.netlify.app/)
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is focused entirely on learning React Router. It includes multiple pages, components, and route setups to understand navigation, linking, and rendering different screens based on URL paths. The goal of this project is not design or features, but to get comfortable with routing in React.
+
+## Tech Stack
+
+* React
+* React Router
+* Vite
+* JavaScript
+* CSS
+
+## Features
+
+* Multiple pages
+* Component-based routing
+* Clean folder structure
+* Basic navigation setup
+
+## Project Structure
+
+```
+project/
+├── public/
+├── src/
+│   ├── components/      # Reusable components
+│   ├── pages/           # Different page components
+│   ├── App.jsx          # Route setup
+│   ├── index.css        # Styles
+│   └── main.jsx         # Entry file
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## How to Use (Clone and Run)
+
+1. Clone the repository
+
+```
+git clone https://github.com/Abhishekkr206/React-router.git
+```
+
+2. Open the folder
+
+```
+cd React-router
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start the development server
+
+```
+npm run dev
+```
+
+5. Open the app
+   Visit the localhost link shown in your terminal.
